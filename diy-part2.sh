@@ -34,7 +34,8 @@ git clone https://github.com/ydy250818/luci-app-adguardhome.git package/lean/luc
 
 # 为adguardhome插件更换最新的版本
 rm -rf feeds/packages/net/adguardhome
-git clone https://github.com/ydy250818/adguardhome.git feeds/packages/net/adguardhome
+# git clone https://github.com/ydy250818/adguardhome.git feeds/packages/net/adguardhome
+git clone https://github.com/ydy250818/adguardhome-new.git feeds/packages/net/adguardhome
 
 # 为smartDNS插件更换最新的版本
 rm -rf feeds/packages/net/smartdns
